@@ -75,7 +75,7 @@ public class TextReader {
 
         result.put("/search_alojamiento.php?product=hotel&q=universal".split("\\?")[0], "2");
         result.put("/search_alojamiento.php?product=hotel&q=universal".split("\\?")[0], "2");
-        result.put("GET /destacados/no-encontramos-resultados/24322309/ HTTP/1.1 -".split("\\?")[0], "2");
+        result.put("GET /destacados/no-encontramos-resultados/".split("\\?")[0], "2");
 
         printMap(result);
     }
