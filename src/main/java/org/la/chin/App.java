@@ -10,11 +10,10 @@ public class App
     {
         System.out.println( "Hello World!" );
         TextReader textReader = new TextReader();
+
 //        textReader.printSample();
 
         String response = textReader.getFilteredText();
         System.out.println(response);
-
-
     }
 }
